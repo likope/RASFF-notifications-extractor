@@ -1,0 +1,6 @@
+{
+    "risk_levels": ["serious", "potentially serious"],
+    "product_categories": ["fruits and vegetables", "milk and milk products"],
+    "origin_countries": ["TR", "CN", "IN"],
+    "keywords": ["pesticide", "listeria", "salmonella"]
+}
