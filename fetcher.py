@@ -48,7 +48,7 @@ def fetch_data(payload: dict) -> dict:
         response.raise_for_status()                                     #verify that the request was successful
         data = response.json() 
         return data                                                     #return the response data as a dictionary
-    except requests.exceptions.RequestException as e:                   #if there is an error during the request, print the error message and return an empty list
+    except requests.exceptions.RequestException as e:                   #if there is an error during the request, print the error message and return an empty dict
         print(f"Error during the request: {e}")
         return {}
 
